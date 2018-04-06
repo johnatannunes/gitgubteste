@@ -1,0 +1,21 @@
+
+<mat-card class=" card-center ">
+    <div *ngFor="let contato of contatos.data">
+        <div>
+                <span>nome:</span>
+                <span>{{ contato.nome}}</span>
+        </div>
+    
+        <div>
+            <span>email:</span>
+            <span>{{ contato.email}}</span>
+    </div>
+    
+    <div>
+        <span>cpf:</span>
+        <span>{{ contato.cpf}}</span>
+    </div>
+    
+    
+    </div>
+</mat-card>
